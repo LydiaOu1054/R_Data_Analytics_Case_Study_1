@@ -482,7 +482,7 @@ ggplot(Exercise_Data_Pie, aes(x = "", y = Freq, fill = Exercise_Stat)) +
   theme_void()
 ```
 
-![](https://drive.google.com/file/d/1fWm70XdgoyBy07Wwb0iHC4r43uujrfuj/view?usp=drive_link)<!-- -->
+![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
 
 ``` r
 ggplot(High_Exercise_Day, aes(x = Id, y = High_Exercise_Day, fill = Id)) +
