@@ -491,7 +491,7 @@ ggplot(High_Exercise_Day, aes(x = Id, y = High_Exercise_Day, fill = Id)) +
   ggtitle('Days that achieve high intensity exercise')
 ```
 
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-17-2.png)<!-- -->
+![High_Intensity_Exercise_Days](unnamed-chunk-17-2.png)<!-- -->
 
 ``` r
 ggplot(Low_Exercise_Day, aes(x = Id, y = Low_Exercise_Day, fill = Id)) +
@@ -501,7 +501,7 @@ ggplot(Low_Exercise_Day, aes(x = Id, y = Low_Exercise_Day, fill = Id)) +
   ggtitle('Days that achieve low intensity exercise')
 ```
 
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-17-3.png)<!-- -->
+![Low_Intensity_Exercise_Days](unnamed-chunk-17-3.png)<!-- -->
 
     * From the information above, the people who exercise is two times more than people who don't do exercise. The people who exercise, there are almost half of them do exercise more than or equal to 15 days in a month. There is only one user doing light exercise, others more or less do the high intensity exercise.
 
@@ -576,7 +576,7 @@ ggplot(Exercise_Timing, aes(x='', y=Weekdays_Exercise_Minutes, fill=Weekdays_Exe
   theme_void()
 ```
 
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+![WeekDays_Exercise_Minutes](unnamed-chunk-18-1.png)<!-- -->
 
 ``` r
 ggplot(Exercise_Timing, aes(x='', y=Weekends_Exercise_Minutes, fill=Weekends_Exercise_Minutes))+
@@ -585,7 +585,7 @@ ggplot(Exercise_Timing, aes(x='', y=Weekends_Exercise_Minutes, fill=Weekends_Exe
   theme_void()
 ```
 
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-18-2.png)<!-- -->
+![Weekends_Exercise_Minutes](unnamed-chunk-18-2.png)<!-- -->
 
 ``` r
 ggplot(Exercise_Timing, aes(x='', y=Time_Spends, fill=Time_Spends))+
@@ -594,7 +594,7 @@ ggplot(Exercise_Timing, aes(x='', y=Time_Spends, fill=Time_Spends))+
   theme_void()
 ```
 
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-18-3.png)<!-- -->
+![Time_Spending](unnamed-chunk-18-3.png)<!-- -->
 
 ``` r
 ggplot(No_Exercise_Record, aes(x = Id))+
@@ -607,7 +607,7 @@ ggplot(No_Exercise_Record, aes(x = Id))+
   annotate("text", x = 4.3 , y=1080,  label = 'Sedentary\nMinutes' , size=3.5, color = '#F5817D')
 ```
 
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-18-4.png)<!-- -->
+![No_Exercise_Activity](unnamed-chunk-18-4.png)<!-- -->
 
       * We can know from the above charts that more users spend more time exercising on weekends. Some people exercise stable every day and only a small group of people spend more time exercising on weekdays.
       
@@ -662,7 +662,7 @@ ggplot(Exercise_Sleep, aes(SleepDay, Time_before_asleep, color = Id))+
   ggtitle('Exercise Users Time Spending Before Asleep')
 ```
 
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![Exercise_Users_Time Spending_Before_Asleep](unnamed-chunk-19-1.png)<!-- -->
 
 ``` r
 ggplot(No_Exercise_Sleep, aes(SleepDay, Time_before_asleep, color = Id))+
@@ -674,7 +674,7 @@ ggplot(No_Exercise_Sleep, aes(SleepDay, Time_before_asleep, color = Id))+
   ggtitle('No Exercise Users Time Spending Before Asleep')
 ```
 
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-19-2.png)<!-- -->
+![No_Exercise__Users_Time_Spending _Before_Asleep](unnamed-chunk-19-2.png)<!-- -->
 
 ``` r
 ggplot(Sleep_Time, aes(Id, Sleep_Time, fill = Exercise_Stat))+
@@ -684,7 +684,7 @@ ggplot(Sleep_Time, aes(Id, Sleep_Time, fill = Exercise_Stat))+
   ggtitle('Users Sleeping Time')
 ```
 
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-19-3.png)<!-- -->
+![User_Sleeping Time](unnamed-chunk-19-3.png)<!-- -->
 
         * From the boxplot above, we can see that most users are asleep between 6 hrs to 8 hrs. There is no obvious difference in seeping time between the group of users who exercise and don't exercise. 
 
