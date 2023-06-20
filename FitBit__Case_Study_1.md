@@ -481,8 +481,7 @@ ggplot(Exercise_Data_Pie, aes(x = "", y = Freq, fill = Exercise_Stat)) +
   coord_polar("y", start = 0)+
   theme_void()
 ```
-unnamed-chunk-17-1.png
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![Exercise-Pie Chart](unnamed-chunk-17-1.png)<!-- -->
 
 ``` r
 ggplot(High_Exercise_Day, aes(x = Id, y = High_Exercise_Day, fill = Id)) +
