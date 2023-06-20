@@ -389,27 +389,7 @@ High_Exercise<-Heart_Rate_Group %>%
 
     ## `summarise()` has grouped output by 'Id'. You can override using the `.groups`
     ## argument.
-
-``` r
-High_Exercise
-```
-
-    ## # A tibble: 166 × 4
-    ## # Groups:   Id [13]
-    ##    Id         Date       High_Ecercise_Minutes High_HR
-    ##    <chr>      <date>                     <int>   <dbl>
-    ##  1 2022484408 2016-04-12                     1    131.
-    ##  2 2022484408 2016-04-13                    10    138.
-    ##  3 2022484408 2016-04-15                    16    143.
-    ##  4 2022484408 2016-04-16                     1    130.
-    ##  5 2022484408 2016-04-17                    24    152.
-    ##  6 2022484408 2016-04-18                    36    141.
-    ##  7 2022484408 2016-04-19                    15    150.
-    ##  8 2022484408 2016-04-20                    30    141.
-    ##  9 2022484408 2016-04-21                    13    163.
-    ## 10 2022484408 2016-04-22                    19    136.
-    ## # ℹ 156 more rows
-
+    
 ``` r
 Low_Exercise<-Heart_Rate_Group %>% 
   filter(Exercise=='Low') %>%
@@ -502,7 +482,7 @@ ggplot(Exercise_Data_Pie, aes(x = "", y = Freq, fill = Exercise_Stat)) +
   theme_void()
 ```
 
-![](FitBit__Case_Study_1_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](https://drive.google.com/file/d/1fWm70XdgoyBy07Wwb0iHC4r43uujrfuj/view?usp=drive_link)<!-- -->
 
 ``` r
 ggplot(High_Exercise_Day, aes(x = Id, y = High_Exercise_Day, fill = Id)) +
