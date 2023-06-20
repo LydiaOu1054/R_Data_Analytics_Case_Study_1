@@ -11,6 +11,8 @@ Jen Yu Ou
 
 # Step 2: Pick up the data needed
 
+   * Data Source: https://www.kaggle.com/datasets/arashnic/fitbit 
+
 1.  dailyActivity_merge: It merges different data and has lots of
     informaiton
 
