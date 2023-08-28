@@ -3,7 +3,7 @@ FitBit_Case_Study_1
 Jen Yu Ou
 2023-06-20
 
-# Step 1: Set the amalyze target:
+# Step 1: Set the analyze target:
 
     * The overall data are all gadered from the devices, so it can only represents the behaviors of the existing users.
 
